@@ -1,0 +1,26 @@
+body {
+    background-color: lightgray;
+}
+
+#sketchBox {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    padding: 4px;
+    margin: 20px;
+    
+}
+
+.testSquare {
+    width: 10px;
+    height: 10px;
+}
+.on {
+    background-color: black;
+
+}
+
+.off {
+    background-color: lightgray;
+}
+
