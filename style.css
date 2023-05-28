@@ -8,12 +8,25 @@ body {
     background-color: white;
     padding: 4px;
     margin: 20px;
-    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
-.testSquare {
-    width: 10px;
-    height: 10px;
+.row{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.square {
+    flex: 1;
+    padding: 0;
+    margin: 1px;
+
 }
 .on {
     background-color: black;

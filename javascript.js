@@ -1,13 +1,17 @@
 
-let xBoxes = 16
-let yBoxes = 16
+let dimension = 32
 
 const sketchBox = document.getElementById("sketchBox")
 
-for (i = 0; i < 16; i++) {
-    for (j = 0; j < 16; j++) {
-        let newDiv = document.createElement("div")
-        
+for (i = 0; i < dimension; i++) {
+    let newRow = document.createElement("div")
+    newRow.className = "row"
+    sketchBox.appendChild(newRow)
+
+    for (j = 0; j < dimension; j++) {
+        let newSquare = document.createElement("div")
+        newSquare.className = "off square"
+        newRow.appendChild(newSquare)
     }
-    document.create
+    
 }
