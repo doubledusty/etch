@@ -26,6 +26,11 @@ button {
     display: flex;
     justify-content: space-between;
 }
+#radioRow{
+    width: 600px;
+    display: inline-block;
+    text-align: center;
+}
 .row{
     flex: 1;
     margin: 0;
@@ -40,6 +45,5 @@ button {
     padding: 0;
     margin: 0px;
     background-color: white;
-
 }
 
